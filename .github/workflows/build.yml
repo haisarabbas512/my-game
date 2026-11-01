@@ -37,7 +37,8 @@ jobs:
             libavcodec-dev \
             zlib1g-dev \
             libffi-dev \
-            libssl-dev
+            libssl-dev \
+            ant
 
     - name: Install Buildozer & Cython
       run: |
